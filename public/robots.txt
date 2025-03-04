@@ -1,4 +1,13 @@
 User-agent: *
-Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /backup/
+Disallow: /cgi-bin/
+Disallow: /search
+Disallow: /*?*
+Allow: /public/
+Allow: /blog/
+Allow: /images/
 
-Sitemap: https://blog-template-gray.vercel.app/sitemap-index.xml
+Sitemap: https://www.nagaswamy.com/sitemap.xml
