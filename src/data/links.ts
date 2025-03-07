@@ -1,6 +1,7 @@
 import TwitterIcon from '@/components/icons/TwitterIcon'
 import GithubIcon from '@/components/icons/GithubIcon'
 import LinkedinIcon from '@/components/icons/LinkedinIcon'
+import BlueskyIcon from '@/components/icons/BlueskyIcon'
 
 // ADD YOUR SOCIAL NETWORKS HERE
 export const SOCIALNETWORKS = [
@@ -10,10 +11,15 @@ export const SOCIALNETWORKS = [
 		icon: GithubIcon
 	},
 
+	//{
+	//	name: 'Twitter',
+	//	url: 'https://twitter.com/venkatnagaswamy',
+	//	icon: TwitterIcon
+	//},
 	{
-		name: 'Twitter',
-		url: 'https://twitter.com/venkatnagaswamy',
-		icon: TwitterIcon
+		name: 'Bluesky',
+		url: 'https://bsky.app/profile/paperweight2024.bsky.social',
+		icon: BlueskyIcon
 	},
 	{
 		name: 'LinkedIn',
